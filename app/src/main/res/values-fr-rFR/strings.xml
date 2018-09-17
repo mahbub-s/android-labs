@@ -3,4 +3,9 @@
     <string name="app_name">AndroidLabs</string>
     <string name="hello_message">Bonjour!</string>
     <string name="ButtonText">Je suis un button</string>
+    <string name="switchLabel">Qu\'est-ce que cela fait?</string>
+    <string name="radioButtonLabel">Bouton Radio</string>
+    <string name="checkBoxLabel">Case à cocher</string>
+    <string name="loginHint">Identifiant</string>
+    <string name="passwordHint">Mot de passe</string>
 </resources>

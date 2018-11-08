@@ -8,4 +8,14 @@
     <string name="checkBoxLabel">Case à cocher</string>
     <string name="loginHint">Identifiant</string>
     <string name="passwordHint">Mot de passe</string>
+    <string name="Login">s\'identifier</string>
+    <string name="Password">mot de passe</string>
+    <string name="dialog_message">Voulez-vous terminer l\'activité?</string>
+    <string name="dialog_title">Confirmation</string>
+    <string name="ok">D\'accord</string>
+    <string name="cancel">Annuler</string>
+    <string name="start_button">Bouton Start</string>
+    <string name="startButtonMsg">L\'utilisateur a cliqué sur Démarrer la discussion.</string>
+    <string name="sendButtonTxt">Envoyer</string>
+    <string name="startWeatherForecastButtonTxt">Début des prévisions météo</string>
 </resources>

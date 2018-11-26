@@ -25,9 +25,12 @@ public class StartActivity extends Activity {
 
         final Button weatherButton = (Button) findViewById(R.id.startWeatherForecast);
 
+        final Button toolbarButton = (Button) findViewById(R.id.startToolbar);
+
         final Intent intent = new Intent(StartActivity.this, ListItemsActivity.class);
         final Intent chatIntent = new Intent(StartActivity.this, ChatWindow.class);
         final Intent weatherIntent = new Intent(StartActivity.this, WeatherForecast.class);
+        final Intent toolbarIntent = new Intent(StartActivity.this, TestToolbar.class);
 
         refButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -46,6 +49,12 @@ public class StartActivity extends Activity {
             public void onClick(View v){
                 Log.i(ACTIVITY_NAME, "@string/startButtonMsg");
                 startActivity(weatherIntent);
+            }
+        });
+
+        toolbarButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(toolbarIntent);
             }
         });
     }
